@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>নামজারি শুনানি SMS অ্যাপ</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>নামজারি শুনানি SMS অ্যাপ</h1>
+  <form id="smsForm">
+    <input type="text" id="caseNumber" placeholder="মামলা নং" required />
+    <input type="date" id="hearingDate" required />
+    <input type="tel" id="phoneNumber" placeholder="মোবাইল নম্বর" pattern="01[0-9]{9}" value="01" required />
+    <button type="submit">মেসেজ পাঠান</button>
+  </form>
+
+  <p><a href="history.html">ইতিহাস দেখুন</a></p>
+
+  <div id="message"></div>
+</body>
+</html>

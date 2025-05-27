@@ -1,0 +1,16 @@
+{
+  "name": "নামজারি শুনানি SMS অ্যাপ",
+  "short_name": "নামজারি SMS",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f9f9f9",
+  "theme_color": "#0b3954",
+  "description": "আপনার নামজারি মামলার শুনানির তারিখ মনে রাখুন এবং SMS পাঠান।",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
